@@ -22,7 +22,18 @@ locals {
       "ap-southeast-2": "arn:aws:lambda:ap-southeast-2:580247275435:layer:LambdaInsightsExtension:33",
       "ap-northeast-1": "arn:aws:lambda:ap-northeast-1:580247275435:layer:LambdaInsightsExtension:50",
       "ca-central-1": "arn:aws:lambda:ca-central-1:580247275435:layer:LambdaInsightsExtension:32",
-      "cn-north-1": "arn:aws-cn:lambda:cn-north-1:488211338238:layer:LambdaInsightsExtension:26"
+      "cn-north-1": "arn:aws-cn:lambda:cn-north-1:488211338238:layer:LambdaInsightsExtension:26",
+      "eu-central-1": "arn:aws:lambda:eu-central-1:580247275435:layer:LambdaInsightsExtension:35",
+      "eu-west-1": "arn:aws:lambda:eu-west-1:580247275435:layer:LambdaInsightsExtension:33",
+      "eu-west-2": "arn:aws:lambda:eu-west-2:580247275435:layer:LambdaInsightsExtension:33",
+      "eu-south-1": "arn:aws:lambda:eu-south-1:339249233099:layer:LambdaInsightsExtension:25",
+      "eu-west-3": "arn:aws:lambda:eu-west-3:580247275435:layer:LambdaInsightsExtension:32",
+      "eu-south-2": "arn:aws:lambda:eu-south-2:352183217350:layer:LambdaInsightsExtension:10",
+      "eu-north-1": "arn:aws:lambda:eu-north-1:580247275435:layer:LambdaInsightsExtension:30",
+      "eu-central-2": "arn:aws:lambda:eu-central-2:033019950311:layer:LambdaInsightsExtension:7",
+      "me-south-1": "arn:aws:lambda:me-south-1:285320876703:layer:LambdaInsightsExtension:25",
+      "me-central-1": "arn:aws:lambda:me-central-1:732604637566:layer:LambdaInsightsExtension:9",
+      "sa-east-1": "arn:aws:lambda:sa-east-1:580247275435:layer:LambdaInsightsExtension:32"
     },
     "arm64": {
       "us-east-1": "arn:aws:lambda:us-east-1:580247275435:layer:LambdaInsightsExtension-Arm64:2",
