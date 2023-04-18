@@ -50,6 +50,8 @@ locals {
   }
 }
 
+data "aws_partition" "current" {}
+
 variable "region" {
   type = string
   description = "Lambda Region, not all regions are supported by lambda insights. See source for all supported regions and architectures"
@@ -65,6 +67,10 @@ variable "architecture" {
   }
 }
 
-output "layer" {
+output "layer_arn" {
   value = lookup(lookup(local.lambda_insight_layers, var.architecture, {}), var.region, null)
+}
+
+output "policy_arn" {
+  value = "arn:${data.aws_partition.current.partition}:iam::${data.aws_partition.current.partition}:policy/CloudWatchLambdaInsightsExecutionRolePolicy"
 }
