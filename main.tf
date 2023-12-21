@@ -86,5 +86,5 @@ output "layer_arn" {
 }
 
 output "policy_arn" {
-  value = "arn:${data.aws_partition.current.partition}:iam::${data.aws_partition.current.partition}:policy/CloudWatchLambdaInsightsExecutionRolePolicy"
+  value = "arn:${data.aws_partition.current.partition}:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy"
 }
